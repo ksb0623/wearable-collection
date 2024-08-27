@@ -1,8 +1,8 @@
 [package]
 name = "wearable-collection-msgs"
-version = "0.1.0"
+version = "0.1.1"
 authors = ["Anderson"]
-edition = "2018"
+edition = "2024"
 description = "wearable collection nft msgs"
 license = "Apache-2.0"
 repository = "https://github.com/ksb0623/wearable-collection"

@@ -1,1 +1,1 @@
-mod msgs;
+pub mod msgs;
