@@ -1,5 +1,6 @@
 use schemars::JsonSchema;
 use serde::{Deserialize, Serialize};
+use cosmwasm_std::Binary;
 
 #[derive(Serialize, Deserialize, Clone, Debug, PartialEq, JsonSchema)]
 #[serde(rename_all = "snake_case")]
@@ -8,7 +9,13 @@ pub enum WearableNftMsg {
   TransferComposedNft { 
     recipient: String, 
     token_id: String 
-  }
+  },
+
+  SendComposedNft {
+    contract: String,
+    token_id: String,
+    msg: Binary,
+},
 }
 
 #[derive(Serialize, Deserialize, Clone, PartialEq, JsonSchema, Debug, Default)]

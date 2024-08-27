@@ -1,6 +1,6 @@
 [package]
 name = "wearable-collection"
-version = "0.1.0"
+version = "0.1.1"
 authors = ["Anderson"]
 edition = "2018"
 description = "wearable collection nft msgs"
