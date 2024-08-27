@@ -1,0 +1,15 @@
+[package]
+name = "wearable-collection-msgs"
+version = "0.1.0"
+authors = ["Anderson"]
+edition = "2018"
+description = "wearable collection nft msgs"
+license = "Apache-2.0"
+repository = ""
+
+[dependencies]
+cw-storage-plus = { version = "0.13.4" }
+cosmwasm-std = { version = "1.0.0" }
+schemars = "0.8.1"
+serde = { version = "1.0.103", default-features = false, features = ["derive"] }
+thiserror = { version = "1.0.23" }
