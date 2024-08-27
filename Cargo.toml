@@ -5,7 +5,7 @@ authors = ["Anderson"]
 edition = "2018"
 description = "wearable collection nft msgs"
 license = "Apache-2.0"
-repository = ""
+repository = "https://github.com/ksb0623/wearable-collection"
 
 [dependencies]
 cw-storage-plus = { version = "0.13.4" }
